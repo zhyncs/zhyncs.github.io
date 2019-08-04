@@ -1,0 +1,1 @@
+We are free to follow our own path. There are those who will take that freedom from us. Too many of you gladly give it. But it is our ability to choose whatever you think is true. That makes us human. There is no book or teacher to give you the answers, show you the path. Choose your own way. Do not follow me, or anyone else.
