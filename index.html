@@ -94,40 +94,68 @@
         <h3 id="about-me">About Me</h3>
 
         <p>
-          I am a Lead Software Engineer on the model performance team at
-          Baseten, with over five years of professional software engineering
-          experience. I previously worked at Baidu and Meituan, two of China's
-          top five technology companies by market capitalization. I specialize
-          in inference optimization for search and recommendation ranking
-          models, as well as large language model inference acceleration.
-        </p>
-
-        <p>
-          I serve as a team member at
-          <a href="https://lmsys.org/about">LMSYS Org</a>. As the core developer
-          at <a href="https://github.com/sgl-project">SGLang team</a>, I am one
-          of the top three contributors to the
-          <a href="https://github.com/sgl-project/sglang">SGLang project</a>,
-          responsible for its development and maintenance.
-        </p>
-
-        <p>
-          I work closely with
-          <a href="https://lmzheng.net">Lianmin Zheng</a> and
+          I am the Inference Lead for
+          <a href="https://github.com/sgl-project/sglang">SGLang</a> at
+          <a href="https://lmsys.org/about/">LMSYS</a>, working closely with
+          <a href="https://lmzheng.net/">Lianmin Zheng</a> and
           <a href="https://sites.google.com/view/yingsheng/home">Ying Sheng</a>
-          on the
-          <a href="https://github.com/sgl-project/sglang">SGLang</a> project,
-          while also working closely with
-          <a href="https://homes.cs.washington.edu/~zhye">Zihao Ye</a> on the
+          to co-lead the project. I am responsible for SGLang’s
+          <a href="https://github.com/sgl-project/sglang/issues/4042">roadmap</a
+          >,
+          <a href="https://github.com/sgl-project/sglang/releases"
+            >major releases</a
+          >, and performance optimization, and have led key launches such as
+          <a href="https://lmsys.org/blog/2024-07-25-sglang-llama3/">Llama 3</a
+          >,
+          <a href="https://github.com/sgl-project/sglang/releases/tag/v0.4.1"
+            >DeepSeek V3</a
+          >,
+          <a href="https://lmsys.org/blog/2025-05-05-large-scale-ep/"
+            >Large Scale EP</a
+          >, and
+          <a href="https://lmsys.org/blog/2025-06-16-gb200-part-1/"
+            >GB200 NVL72</a
+          >. I am also a committer to
           <a href="https://github.com/flashinfer-ai/flashinfer">FlashInfer</a>
-          project.
+          and <a href="https://github.com/internlm/lmdeploy">LMDeploy</a>, and
+          co-authored the
+          <a href="https://arxiv.org/abs/2501.01005">FlashInfer paper</a> (
+          <a href="https://mlsys.org/virtual/2025/poster/3259"
+            >MLSys 2025 Best Paper</a
+          >). Previously, I was a Lead Software Engineer at
+          <a href="https://www.baseten.co/">Baseten</a>, where I co-authored the
+          <a
+            href="https://www.baseten.co/blog/private-secure-deepseek-r1-in-production-in-us-eu-data-centers/"
+            >DeepSeek V3</a
+          >
+          and
+          <a
+            href="https://www.baseten.co/blog/day-zero-benchmarks-for-qwen-3-with-sglang-on-baseten/"
+            >Qwen 3</a
+          >
+          launch blogs and
+          <a
+            href="https://www.baseten.co/resources/guide/the-baseten-inference-stack/"
+            >The Baseten Inference Stack</a
+          >
+          ebook. Earlier, I worked at Meituan on
+          <a href="https://tech.meituan.com/2022/03/03/ctr-gpu-inference.html"
+            >CTR GPU inference</a
+          >
+          and
+          <a
+            href="https://tech.meituan.com/2024/04/11/gpu-vector-retrieval-system-practice.html"
+            >vector retrieval</a
+          >
+          systems, and co-authored the
+          <a href="https://arxiv.org/abs/2406.09904">QQQ paper</a> (ICLR 2025
+          Workshop).
         </p>
 
         <p>
-          The best way to contact me is via the
-          <a href="https://slack.sglang.ai">SGLang Slack</a>. We're looking for
-          open-source enthusiasts and learners to help grow the SGLang project
-          and community.
+          I’m actively building the open-source SGLang community—if you're
+          passionate about LLM systems, come join us on the
+          <a href="https://slack.sglang.ai/">SGLang Slack</a>!
         </p>
 
         <h3 id="projects">Projects</h3>
@@ -234,6 +262,28 @@
 
         <div style="padding-right: 10px; padding-left: 20px">
           <a
+            href="https://github.com/basetenlabs/SGLang-Workshop/blob/main/SGLang%20Workshop%20Slides.pdf"
+            style="font-weight: 500"
+            >Introduction to LLM serving with SGLang</a
+          >: A hands-on session was delivered at the AI Engineer World's Fair
+          2025.
+        </div>
+
+        <div style="line-height: 50%">
+          <br />
+        </div>
+
+        <div style="padding-right: 10px; padding-left: 20px">
+          <a
+            href="https://github.com/sgl-project/sgl-learning-materials/blob/main/slides/cuda_tech_briefing_at_nvidia_gtc_2025.pdf"
+            style="font-weight: 500"
+            >CUDA Tech Briefing at NVIDIA GTC 2025</a
+          >: A technical talk on SGLang was presented at NVIDIA GTC 2025,
+          focusing on DeepSeek V3 optimization and the importance of CUDA JIT.
+        </div>
+
+        <div style="padding-right: 10px; padding-left: 20px">
+          <a
             href="https://gamma.app/docs/SGLang-v04-Optimization-6x6pml7351oy58r?mode=doc"
             style="font-weight: 500"
             >SGLang v0.4 Optimization</a
@@ -283,12 +333,65 @@
                   "
                 >
                   <div class="title">
+                    Deploying DeepSeek on GB200 NVL72 with PD and Large Scale EP
+                    (Part I): 2.7x Higher Decoding Throughput
+                  </div>
+                  <div>Lead GB200 NVL72 project</div>
+                  <div class="links">
+                    <a href="https://lmsys.org/blog/2025-06-16-gb200-part-1/"
+                      >Blog</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <div style="line-height: 50%">
+              <br />
+            </div>
+            <li>
+              <div class="pub-row">
+                <div
+                  class="col-sm-12"
+                  style="
+                    position: relative;
+                    padding-right: 10px;
+                    padding-left: 20px;
+                  "
+                >
+                  <div class="title">
                     Deploying DeepSeek with PD Disaggregation and Large-scale
                     Expert Parallelism on 96 H100 GPUs
                   </div>
                   <div>Co lead optimization of DeepSeek V3/R1 on SGLang</div>
                   <div class="links">
                     <a href="https://lmsys.org/blog/2025-05-05-large-scale-ep"
+                      >Blog</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <div style="line-height: 50%">
+              <br />
+            </div>
+
+            <li>
+              <div class="pub-row">
+                <div
+                  class="col-sm-12"
+                  style="
+                    position: relative;
+                    padding-right: 10px;
+                    padding-left: 20px;
+                  "
+                >
+                  <div class="title">The Baseten Inference Stack</div>
+                  <div>Co-author this ebook</div>
+                  <div class="links">
+                    <a
+                      href="https://www.baseten.co/resources/guide/the-baseten-inference-stack"
                       >Blog</a
                     >
                   </div>
@@ -319,6 +422,37 @@
                   <div class="links">
                     <a
                       href="https://www.baseten.co/blog/day-zero-benchmarks-for-qwen-3-with-sglang-on-baseten"
+                      >Blog</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <div style="line-height: 50%">
+              <br />
+            </div>
+
+            <li>
+              <div class="pub-row">
+                <div
+                  class="col-sm-12"
+                  style="
+                    position: relative;
+                    padding-right: 10px;
+                    padding-left: 20px;
+                  "
+                >
+                  <div class="title">
+                    Private, secure DeepSeek-R1 in production in US & EU data
+                    centers
+                  </div>
+                  <div class="author">
+                    Philip Kiely, Amir Haghighat, <strong>Yineng Zhang</strong>
+                  </div>
+                  <div class="links">
+                    <a
+                      href="https://www.baseten.co/blog/private-secure-deepseek-r1-in-production-in-us-eu-data-centers"
                       >Blog</a
                     >
                   </div>
@@ -495,7 +629,7 @@
             <strong>Baseten</strong> <br />
             Lead Software Engineer <br />
             <em>Model Performance Team</em> <br />
-            September 2024 - now
+            September 2024 - June 2025
           </p>
 
           <p>
